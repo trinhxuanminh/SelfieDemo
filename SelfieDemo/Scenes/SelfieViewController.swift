@@ -49,7 +49,7 @@ class SelfieViewController: BaseViewController {
         cameraManager.shouldEnablePinchToZoom = false
         return cameraManager
     }()
-    private let listFrame: [BaseFrame] = [Frame6(), Frame3()]
+    private let listFrame: [BaseFrame] = [Frame3(), Frame6()]
     private var stateFrame: Int = 0
     private var poster = UIImage(named: "posterName")!
     private var secondPoster = UIImage(named: "posterName")!

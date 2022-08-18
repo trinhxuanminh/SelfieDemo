@@ -46,6 +46,10 @@
 		966D5DC528AC05E5005E75D1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC228AC05E5005E75D1 /* BaseView.swift */; };
 		966D5DC628AC05E5005E75D1 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC328AC05E5005E75D1 /* ViewProtocol.swift */; };
 		966D5DC828AC0F5F005E75D1 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC728AC0F5F005E75D1 /* FrameView.swift */; };
+		968FAD2028AE162A00CC31D4 /* UTM Bebas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 966D5DAA28ABEE21005E75D1 /* UTM Bebas.ttf */; };
+		968FAD2128AE162D00CC31D4 /* Pompiere-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 966D5DA928ABEE16005E75D1 /* Pompiere-Regular.ttf */; };
+		968FAD2228AE163000CC31D4 /* iCielBambola.otf in Resources */ = {isa = PBXBuildFile; fileRef = 966D5DA828ABED3D005E75D1 /* iCielBambola.otf */; };
+		968FAD2328AE163300CC31D4 /* Playball-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 966D5DA728ABECC2005E75D1 /* Playball-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -318,8 +322,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968FAD2328AE163300CC31D4 /* Playball-Regular.ttf in Resources */,
+				968FAD2128AE162D00CC31D4 /* Pompiere-Regular.ttf in Resources */,
+				968FAD2228AE163000CC31D4 /* iCielBambola.otf in Resources */,
 				961ADEFA28AB8EC900BF297A /* LaunchScreen.storyboard in Resources */,
 				966D5DB628ABF5E3005E75D1 /* Images.xcassets in Resources */,
+				968FAD2028AE162A00CC31D4 /* UTM Bebas.ttf in Resources */,
 				961ADEF728AB8EC900BF297A /* Assets.xcassets in Resources */,
 				961ADEF528AB8EC500BF297A /* Main.storyboard in Resources */,
 			);
