@@ -9,21 +9,89 @@
 /* Begin PBXBuildFile section */
 		961ADEEE28AB8EC500BF297A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADEED28AB8EC500BF297A /* AppDelegate.swift */; };
 		961ADEF028AB8EC500BF297A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADEEF28AB8EC500BF297A /* SceneDelegate.swift */; };
-		961ADEF228AB8EC500BF297A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADEF128AB8EC500BF297A /* ViewController.swift */; };
 		961ADEF528AB8EC500BF297A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961ADEF328AB8EC500BF297A /* Main.storyboard */; };
 		961ADEF728AB8EC900BF297A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961ADEF628AB8EC900BF297A /* Assets.xcassets */; };
 		961ADEFA28AB8EC900BF297A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961ADEF828AB8EC900BF297A /* LaunchScreen.storyboard */; };
+		961ADF1728AB8FF300BF297A /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0628AB8FF200BF297A /* UIImageViewExtension.swift */; };
+		961ADF1828AB8FF300BF297A /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0728AB8FF200BF297A /* UITextViewExtension.swift */; };
+		961ADF1928AB8FF300BF297A /* CAGradientLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0828AB8FF200BF297A /* CAGradientLayerExtension.swift */; };
+		961ADF1A28AB8FF300BF297A /* FaceFocusImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0928AB8FF200BF297A /* FaceFocusImageView.swift */; };
+		961ADF1B28AB8FF300BF297A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0A28AB8FF200BF297A /* DateExtension.swift */; };
+		961ADF1C28AB8FF300BF297A /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0B28AB8FF200BF297A /* NSObjectExtension.swift */; };
+		961ADF1D28AB8FF300BF297A /* UILableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0C28AB8FF200BF297A /* UILableExtension.swift */; };
+		961ADF1E28AB8FF300BF297A /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0D28AB8FF200BF297A /* UICollectionViewCellExtension.swift */; };
+		961ADF1F28AB8FF300BF297A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0E28AB8FF300BF297A /* StringExtension.swift */; };
+		961ADF2028AB8FF300BF297A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF0F28AB8FF300BF297A /* DoubleExtension.swift */; };
+		961ADF2128AB8FF300BF297A /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1028AB8FF300BF297A /* CGFloatExtension.swift */; };
+		961ADF2228AB8FF300BF297A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1128AB8FF300BF297A /* UIButtonExtension.swift */; };
+		961ADF2328AB8FF300BF297A /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1228AB8FF300BF297A /* UIViewControllerExtension.swift */; };
+		961ADF2428AB8FF300BF297A /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1328AB8FF300BF297A /* UIApplicationExtension.swift */; };
+		961ADF2528AB8FF300BF297A /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1428AB8FF300BF297A /* UICollectionViewExtension.swift */; };
+		961ADF2628AB8FF300BF297A /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1528AB8FF300BF297A /* IntExtension.swift */; };
+		961ADF2728AB8FF300BF297A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ADF1628AB8FF300BF297A /* UIViewExtension.swift */; };
+		966D5D8E28AB9BE2005E75D1 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5D8D28AB9BE2005E75D1 /* SelfieViewController.swift */; };
+		966D5D9128AB9D59005E75D1 /* CameraManager in Frameworks */ = {isa = PBXBuildFile; productRef = 966D5D9028AB9D59005E75D1 /* CameraManager */; };
+		966D5D9428AB9DB2005E75D1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 966D5D9328AB9DB2005E75D1 /* SnapKit */; };
+		966D5D9D28ABD159005E75D1 /* ComponentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5D9C28ABD159005E75D1 /* ComponentLocation.swift */; };
+		966D5DA128ABE557005E75D1 /* BaseFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DA028ABE556005E75D1 /* BaseFrame.swift */; };
+		966D5DA328ABE611005E75D1 /* LabelProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DA228ABE611005E75D1 /* LabelProperties.swift */; };
+		966D5DA528ABE84D005E75D1 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DA428ABE84D005E75D1 /* AppFont.swift */; };
+		966D5DAD28ABF2C9005E75D1 /* Frame3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DAC28ABF2C9005E75D1 /* Frame3.swift */; };
+		966D5DAF28ABF3A1005E75D1 /* Frame6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DAE28ABF3A1005E75D1 /* Frame6.swift */; };
+		966D5DB428ABF5BE005E75D1 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DB328ABF5BE005E75D1 /* AppImage.swift */; };
+		966D5DB628ABF5E3005E75D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966D5DB528ABF5E3005E75D1 /* Images.xcassets */; };
+		966D5DB828ABFB39005E75D1 /* AppSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DB728ABFB39005E75D1 /* AppSize.swift */; };
+		966D5DBF28AC02AF005E75D1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DBE28AC02AF005E75D1 /* UIColorExtension.swift */; };
+		966D5DC428AC05E5005E75D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC128AC05E5005E75D1 /* BaseViewController.swift */; };
+		966D5DC528AC05E5005E75D1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC228AC05E5005E75D1 /* BaseView.swift */; };
+		966D5DC628AC05E5005E75D1 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC328AC05E5005E75D1 /* ViewProtocol.swift */; };
+		966D5DC828AC0F5F005E75D1 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D5DC728AC0F5F005E75D1 /* FrameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		961ADEEA28AB8EC500BF297A /* SelfieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961ADEED28AB8EC500BF297A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		961ADEEF28AB8EC500BF297A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		961ADEF128AB8EC500BF297A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		961ADEF428AB8EC500BF297A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		961ADEF628AB8EC900BF297A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		961ADEF928AB8EC900BF297A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		961ADEFB28AB8EC900BF297A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961ADF0628AB8FF200BF297A /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		961ADF0728AB8FF200BF297A /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		961ADF0828AB8FF200BF297A /* CAGradientLayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtension.swift; sourceTree = "<group>"; };
+		961ADF0928AB8FF200BF297A /* FaceFocusImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceFocusImageView.swift; sourceTree = "<group>"; };
+		961ADF0A28AB8FF200BF297A /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		961ADF0B28AB8FF200BF297A /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		961ADF0C28AB8FF200BF297A /* UILableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILableExtension.swift; sourceTree = "<group>"; };
+		961ADF0D28AB8FF200BF297A /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
+		961ADF0E28AB8FF300BF297A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		961ADF0F28AB8FF300BF297A /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		961ADF1028AB8FF300BF297A /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		961ADF1128AB8FF300BF297A /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		961ADF1228AB8FF300BF297A /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		961ADF1328AB8FF300BF297A /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		961ADF1428AB8FF300BF297A /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		961ADF1528AB8FF300BF297A /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		961ADF1628AB8FF300BF297A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		966D5D8D28AB9BE2005E75D1 /* SelfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
+		966D5D9C28ABD159005E75D1 /* ComponentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLocation.swift; sourceTree = "<group>"; };
+		966D5DA028ABE556005E75D1 /* BaseFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFrame.swift; sourceTree = "<group>"; };
+		966D5DA228ABE611005E75D1 /* LabelProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelProperties.swift; sourceTree = "<group>"; };
+		966D5DA428ABE84D005E75D1 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		966D5DA728ABECC2005E75D1 /* Playball-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Playball-Regular.ttf"; sourceTree = "<group>"; };
+		966D5DA828ABED3D005E75D1 /* iCielBambola.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iCielBambola.otf; sourceTree = "<group>"; };
+		966D5DA928ABEE16005E75D1 /* Pompiere-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pompiere-Regular.ttf"; sourceTree = "<group>"; };
+		966D5DAA28ABEE21005E75D1 /* UTM Bebas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UTM Bebas.ttf"; sourceTree = "<group>"; };
+		966D5DAC28ABF2C9005E75D1 /* Frame3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame3.swift; sourceTree = "<group>"; };
+		966D5DAE28ABF3A1005E75D1 /* Frame6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame6.swift; sourceTree = "<group>"; };
+		966D5DB328ABF5BE005E75D1 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		966D5DB528ABF5E3005E75D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		966D5DB728ABFB39005E75D1 /* AppSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSize.swift; sourceTree = "<group>"; };
+		966D5DBE28AC02AF005E75D1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		966D5DC128AC05E5005E75D1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		966D5DC228AC05E5005E75D1 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		966D5DC328AC05E5005E75D1 /* ViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		966D5DC728AC0F5F005E75D1 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966D5D9128AB9D59005E75D1 /* CameraManager in Frameworks */,
+				966D5D9428AB9DB2005E75D1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +126,130 @@
 		961ADEEC28AB8EC500BF297A /* SelfieDemo */ = {
 			isa = PBXGroup;
 			children = (
-				961ADEED28AB8EC500BF297A /* AppDelegate.swift */,
-				961ADEEF28AB8EC500BF297A /* SceneDelegate.swift */,
-				961ADEF128AB8EC500BF297A /* ViewController.swift */,
-				961ADEF328AB8EC500BF297A /* Main.storyboard */,
-				961ADEF628AB8EC900BF297A /* Assets.xcassets */,
-				961ADEF828AB8EC900BF297A /* LaunchScreen.storyboard */,
 				961ADEFB28AB8EC900BF297A /* Info.plist */,
+				961ADF0128AB8F0200BF297A /* App */,
+				961ADF0428AB8FAD00BF297A /* Ultis */,
+				961ADF0328AB8F3500BF297A /* Scenes */,
 			);
 			path = SelfieDemo;
+			sourceTree = "<group>";
+		};
+		961ADF0128AB8F0200BF297A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				961ADEED28AB8EC500BF297A /* AppDelegate.swift */,
+				961ADEEF28AB8EC500BF297A /* SceneDelegate.swift */,
+				961ADEF628AB8EC900BF297A /* Assets.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		961ADF0328AB8F3500BF297A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				961ADEF828AB8EC900BF297A /* LaunchScreen.storyboard */,
+				961ADEF328AB8EC500BF297A /* Main.storyboard */,
+				966D5D8A28AB9AEA005E75D1 /* ViewControllers */,
+				966D5DB928AC0062005E75D1 /* Views */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		961ADF0428AB8FAD00BF297A /* Ultis */ = {
+			isa = PBXGroup;
+			children = (
+				966D5DB728ABFB39005E75D1 /* AppSize.swift */,
+				966D5DA428ABE84D005E75D1 /* AppFont.swift */,
+				966D5DB328ABF5BE005E75D1 /* AppImage.swift */,
+				966D5DC028AC05A4005E75D1 /* Base */,
+				966D5DAB28ABF279005E75D1 /* Frames */,
+				966D5DB228ABF59B005E75D1 /* Images */,
+				966D5DA628ABEB4E005E75D1 /* Fonts */,
+				961ADF0528AB8FC000BF297A /* Extensions */,
+			);
+			name = Ultis;
+			sourceTree = "<group>";
+		};
+		961ADF0528AB8FC000BF297A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				961ADF0828AB8FF200BF297A /* CAGradientLayerExtension.swift */,
+				961ADF1028AB8FF300BF297A /* CGFloatExtension.swift */,
+				961ADF0A28AB8FF200BF297A /* DateExtension.swift */,
+				961ADF0F28AB8FF300BF297A /* DoubleExtension.swift */,
+				961ADF0928AB8FF200BF297A /* FaceFocusImageView.swift */,
+				961ADF1528AB8FF300BF297A /* IntExtension.swift */,
+				961ADF0B28AB8FF200BF297A /* NSObjectExtension.swift */,
+				961ADF0E28AB8FF300BF297A /* StringExtension.swift */,
+				961ADF1328AB8FF300BF297A /* UIApplicationExtension.swift */,
+				961ADF1128AB8FF300BF297A /* UIButtonExtension.swift */,
+				961ADF0D28AB8FF200BF297A /* UICollectionViewCellExtension.swift */,
+				961ADF1428AB8FF300BF297A /* UICollectionViewExtension.swift */,
+				961ADF0628AB8FF200BF297A /* UIImageViewExtension.swift */,
+				961ADF0C28AB8FF200BF297A /* UILableExtension.swift */,
+				961ADF0728AB8FF200BF297A /* UITextViewExtension.swift */,
+				961ADF1228AB8FF300BF297A /* UIViewControllerExtension.swift */,
+				961ADF1628AB8FF300BF297A /* UIViewExtension.swift */,
+				966D5DBE28AC02AF005E75D1 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		966D5D8A28AB9AEA005E75D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				966D5D8D28AB9BE2005E75D1 /* SelfieViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		966D5DA628ABEB4E005E75D1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				966D5DAA28ABEE21005E75D1 /* UTM Bebas.ttf */,
+				966D5DA928ABEE16005E75D1 /* Pompiere-Regular.ttf */,
+				966D5DA828ABED3D005E75D1 /* iCielBambola.otf */,
+				966D5DA728ABECC2005E75D1 /* Playball-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		966D5DAB28ABF279005E75D1 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				966D5DAC28ABF2C9005E75D1 /* Frame3.swift */,
+				966D5DAE28ABF3A1005E75D1 /* Frame6.swift */,
+			);
+			name = Frames;
+			sourceTree = "<group>";
+		};
+		966D5DB228ABF59B005E75D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				966D5DB528ABF5E3005E75D1 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		966D5DB928AC0062005E75D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				966D5DC728AC0F5F005E75D1 /* FrameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		966D5DC028AC05A4005E75D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				966D5D9C28ABD159005E75D1 /* ComponentLocation.swift */,
+				966D5DA228ABE611005E75D1 /* LabelProperties.swift */,
+				966D5DA028ABE556005E75D1 /* BaseFrame.swift */,
+				966D5DC328AC05E5005E75D1 /* ViewProtocol.swift */,
+				966D5DC228AC05E5005E75D1 /* BaseView.swift */,
+				966D5DC128AC05E5005E75D1 /* BaseViewController.swift */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +268,10 @@
 			dependencies = (
 			);
 			name = SelfieDemo;
+			packageProductDependencies = (
+				966D5D9028AB9D59005E75D1 /* CameraManager */,
+				966D5D9328AB9DB2005E75D1 /* SnapKit */,
+			);
 			productName = SelfieDemo;
 			productReference = 961ADEEA28AB8EC500BF297A /* SelfieDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +300,10 @@
 				Base,
 			);
 			mainGroup = 961ADEE128AB8EC500BF297A;
+			packageReferences = (
+				966D5D8F28AB9D59005E75D1 /* XCRemoteSwiftPackageReference "CameraManager" */,
+				966D5D9228AB9DB2005E75D1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 961ADEEB28AB8EC500BF297A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				961ADEFA28AB8EC900BF297A /* LaunchScreen.storyboard in Resources */,
+				966D5DB628ABF5E3005E75D1 /* Images.xcassets in Resources */,
 				961ADEF728AB8EC900BF297A /* Assets.xcassets in Resources */,
 				961ADEF528AB8EC500BF297A /* Main.storyboard in Resources */,
 			);
@@ -138,9 +332,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961ADEF228AB8EC500BF297A /* ViewController.swift in Sources */,
+				961ADF2128AB8FF300BF297A /* CGFloatExtension.swift in Sources */,
+				966D5DA128ABE557005E75D1 /* BaseFrame.swift in Sources */,
+				961ADF2028AB8FF300BF297A /* DoubleExtension.swift in Sources */,
+				961ADF2328AB8FF300BF297A /* UIViewControllerExtension.swift in Sources */,
+				966D5DC428AC05E5005E75D1 /* BaseViewController.swift in Sources */,
+				966D5DA328ABE611005E75D1 /* LabelProperties.swift in Sources */,
+				961ADF1D28AB8FF300BF297A /* UILableExtension.swift in Sources */,
 				961ADEEE28AB8EC500BF297A /* AppDelegate.swift in Sources */,
+				961ADF2628AB8FF300BF297A /* IntExtension.swift in Sources */,
+				961ADF1B28AB8FF300BF297A /* DateExtension.swift in Sources */,
+				961ADF2428AB8FF300BF297A /* UIApplicationExtension.swift in Sources */,
+				966D5D8E28AB9BE2005E75D1 /* SelfieViewController.swift in Sources */,
 				961ADEF028AB8EC500BF297A /* SceneDelegate.swift in Sources */,
+				961ADF2528AB8FF300BF297A /* UICollectionViewExtension.swift in Sources */,
+				961ADF1A28AB8FF300BF297A /* FaceFocusImageView.swift in Sources */,
+				966D5DB428ABF5BE005E75D1 /* AppImage.swift in Sources */,
+				961ADF1928AB8FF300BF297A /* CAGradientLayerExtension.swift in Sources */,
+				961ADF1E28AB8FF300BF297A /* UICollectionViewCellExtension.swift in Sources */,
+				966D5DBF28AC02AF005E75D1 /* UIColorExtension.swift in Sources */,
+				961ADF2728AB8FF300BF297A /* UIViewExtension.swift in Sources */,
+				966D5DA528ABE84D005E75D1 /* AppFont.swift in Sources */,
+				961ADF1728AB8FF300BF297A /* UIImageViewExtension.swift in Sources */,
+				961ADF1828AB8FF300BF297A /* UITextViewExtension.swift in Sources */,
+				966D5D9D28ABD159005E75D1 /* ComponentLocation.swift in Sources */,
+				966D5DAD28ABF2C9005E75D1 /* Frame3.swift in Sources */,
+				966D5DAF28ABF3A1005E75D1 /* Frame6.swift in Sources */,
+				961ADF2228AB8FF300BF297A /* UIButtonExtension.swift in Sources */,
+				961ADF1F28AB8FF300BF297A /* StringExtension.swift in Sources */,
+				966D5DB828ABFB39005E75D1 /* AppSize.swift in Sources */,
+				961ADF1C28AB8FF300BF297A /* NSObjectExtension.swift in Sources */,
+				966D5DC828AC0F5F005E75D1 /* FrameView.swift in Sources */,
+				966D5DC628AC05E5005E75D1 /* ViewProtocol.swift in Sources */,
+				966D5DC528AC05E5005E75D1 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,11 +516,16 @@
 				DEVELOPMENT_TEAM = CAHNRSZ4RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SelfieDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Selfie camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Selfie library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +549,16 @@
 				DEVELOPMENT_TEAM = CAHNRSZ4RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SelfieDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Selfie camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Selfie library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +594,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		966D5D8F28AB9D59005E75D1 /* XCRemoteSwiftPackageReference "CameraManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/imaginary-cloud/CameraManager";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.3;
+			};
+		};
+		966D5D9228AB9DB2005E75D1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		966D5D9028AB9D59005E75D1 /* CameraManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 966D5D8F28AB9D59005E75D1 /* XCRemoteSwiftPackageReference "CameraManager" */;
+			productName = CameraManager;
+		};
+		966D5D9328AB9DB2005E75D1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 966D5D9228AB9DB2005E75D1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 961ADEE228AB8EC500BF297A /* Project object */;
 }
